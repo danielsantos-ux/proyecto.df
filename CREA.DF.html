@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INMOBI.DF</title>
+    <link rel="stylesheet" href="css/INMOBI.DF.css">
+</head>
+<body>
+    <div class="cabecera">
+        <div style="width: 75%; margin: auto;">
+            <div style="float:left;">
+                INMOBI.DF
+            </div>
+            <div style="float:right; padding: 10px;">
+                INMOBI.DF@gmail.com
+            </div>
+            <div>
+                <img src="img/banner.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="cuerpo">
+        <div id="barra">
+            <p style="text-align: center; margin-bottom: 30px;">menú principal</p>
+            <ul> 
+                <li><a href="#" onclick="mostrarpag('pagina1')">oficina</a></li>
+                <li><a href="#" onclick="mostrarpag('pagina2')">multifamiliar</a></li>
+                <li><a href="#" onclick="mostrarpag('pagina3')">plano de de interior</a></li>
+                <li><a href="#" onclick="cerrar();">cerrar sesión</a></li>
+            </ul>
+
+        </div>
+        <div id="contenido">
+
+            <div id="pagina1" class="pag active">
+                <h1>plan de oficine</h1>
+                <p>capacidad 25 persona</p>
+                <img src="img/oficina.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina2" class="pag active">
+                <h1>modelo multifamiliar</h1>
+                <p>cocina - dormitorio - baño - sala</p>
+                <img src="img/multifamiliar.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina3" class="pag active">
+                <h1>interior del edificio</h1>
+                <p>interior amoblado con pisina</p>
+                <img src="img/frontis.jpg" width="100%" alt=""> 
+            </div>
+        </div>    
+    </div>
+    <div>
+        <div class="pie">
+            <div style="width: 100%;">
+                <div style="text-align: center;">
+                      autor: INMOBI.DF<br>
+            </div>
+        </div>
+    </div>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
